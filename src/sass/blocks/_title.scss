@@ -10,8 +10,19 @@
         font-size: 36px;
     }
 }
+@media (max-width: 991px) {
+    .title{
+        &_left {
+            text-align: center;
+            font-size: 28px;
+        }
+    }
+}
 @media (max-width: 575px) {
     .title {
         font-size: 23px;
+        &_left {
+            font-size: 20px;
+        }
     }
 }

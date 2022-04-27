@@ -34,6 +34,15 @@
         align-items: flex-end;
     }
 }
+@media (max-width:991px) {
+    .header {
+        justify-content: space-between;
+        padding: 0 20px;
+        &__official {
+            display: none;
+        }
+    }
+}
 @media (max-width: 575px) {
     .header {
         flex-direction: column;
@@ -45,7 +54,7 @@
             margin-top: 21px;
         }
         &__phone {
-            font-size: 15px;
+            font-size: 14px;
             padding-right: 25px;
         }
         &__logo {

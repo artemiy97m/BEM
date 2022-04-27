@@ -54,6 +54,13 @@
         }
     }
 }
+@media (max-width:991px) {
+    .promo {
+        &__wrapper{
+        align-items: center;
+        }
+    }
+}
 @media (max-width: 575px) {
     .promo {
         padding-bottom: 45px;
