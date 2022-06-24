@@ -15,3 +15,23 @@
 @import 'blocks/forms';
 @import 'blocks/carousel';
 @import 'blocks/catalog';
+@import 'blocks/reviews';
+@import 'blocks/footer';
+@import 'blocks/modal';
+
+
+.featured {
+    width: 100%;
+}
+
+@media (max-width: 991px) {
+    .container {
+        max-width: 728px;
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        max-width: 545px;
+    }
+}
